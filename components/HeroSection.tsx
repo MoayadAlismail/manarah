@@ -3,6 +3,7 @@ import ShinyButton from "@/components/magicui/shiny-button";
 import DotPattern from "@/components/magicui/dot-pattern";
 
 export default function HeroSection() {
+  // TODO: fix: popup animation shows up from left to right
   return (
     <div className="text-center mb-16 relative">
       <DotPattern
