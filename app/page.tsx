@@ -6,14 +6,14 @@ import TestimonialRow from "@/components/TestimonialRow";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen overflow-hidden bg-white">
+    <main className="relative min-h-screen overflow-hidden bg-white" style={{ direction: "rtl" }}>
       <Meteors number={50} />
 
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen p-4">
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen p-4 mt-16">
         <HeroSection />
         <BentoCards />
 
-        <div className="w-full max-w-4xl mb-16">
+        <div className="w-full max-w-4xl mb-16 mt-16">
           <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">آراء طلابنا</h2>
 
           <div className="relative">

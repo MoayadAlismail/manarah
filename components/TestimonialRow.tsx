@@ -1,6 +1,7 @@
 import { testimonials } from "@/data/testimonials";
 
 export default function TestimonialRow() {
+  // TODO: make the cards loop after they're finished
   return (
     <div className="flex">
       {testimonials.map((testimonial, index) => (
